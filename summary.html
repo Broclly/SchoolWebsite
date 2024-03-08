@@ -12,8 +12,12 @@
             </h1>
 
             <blockquote>
-                <h2> 
-                    Table-related tags
+                <h2 title="table"> 
+                    <ul>
+                        <li>
+                            Table-related tags
+                        </li>
+                    </ul>
                 </h2>
             </blockquote>
                 <table style="border: 3px solid black;">
@@ -21,16 +25,13 @@
                         <th>
                             Tag Name
                         </th>
-                        <th style="width: 10vw; border: 3px solid black;">
+                        <th style="width: 10vw;">
                             Description
-                        </th>
-                        <th>
-                             
                         </th>
                     </tr>
                     <tr>
                         <td style="padding: 03px;">
-                            table
+                            &lt;table&gt;
                         </td>
                         <td style="padding: 3px;">
                             Creates a table!
@@ -38,7 +39,7 @@
                     </tr>
                     <tr>
                         <td style="padding: 3px;">
-                            tr 
+                            &lt;tr&gt;
                         </td>
                         <td style="padding: 3px;">
                             Creates a new row!
@@ -46,7 +47,7 @@
                     </tr>
                     <tr>
                         <td style="padding: 3px;">
-                            th
+                            &LT;th&GT;
                         </td>
                         <td style="padding: 3px;">
                             Creates a table header, usually used only on the first row!
@@ -56,27 +57,121 @@
                         <td style="padding: 3px;">
                             &lt;td&gt; 
                         </td>
+                        <td>
+                            Adds data, such as words in a data cell!
+                        </td>
                     </tr>
                 </table>
             <blockquote>
-                <h2>
-                    List-related tags
+                <h2 id="list">
+                    <ul>
+                        <li>
+                            List-related tags
+                        </li>
+                    </ul>
                 </h2>
             </blockquote>
-                <table>
+                <table style="border: 3px solid black;">
                     <tr>
                         <th>
                             Tag Name 
                         </th>
-                        <th>
+                        <th style="width: 20vw;">
                             Description
-                        </th>
-                        <th>
-
                         </th>
                     </tr>
                     <tr>
-
+                        <td>
+                            &lt;ul&gt;
+                        </td>
+                        <td>
+                            Creates an unordered list!
+                        </td>
                     </tr>
+                    <tr>
+                        <td>
+                            &lt;ol&gt;
+                        </td>
+                        <td>
+                            Creates an ordered list!
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            &lt;li&gt;
+                        </td>
+                        <td>
+                            Adds an item to a prexisting list!
+                        </td>
+                    </tr>
+                </table>
+                <blockquote>
+                    <h2 id="website">
+                        <ul>
+                            <li>
+                                Link-related tags
+                            </li>
+                            </ul>
+                    </h2>
+                </blockquote>
+                <table style="border: 3px solid black">
+                    <tr>
+                        <th>
+                            Tag name
+                        </th>
+                        <th style="width: 50vw;">
+                            Description
+                        </th>
+                    </tr>
+                    <tr>
+                        <td>
+                            &lt;a href="https://www.example.com"&gt;
+                        </td>
+                        <td>
+                            Initalizes a hyperlink, then requires a universal 
+                            resource locator, in order to function. Jumps to the selected
+			    website after intialization, and required properties. 
+                        </td>
+                    </tr>
+                    <tr>
+			            <td>
+			                &lt;a href="example.html"&gt;
+			            </td>
+			            <td>
+			                Initalizes an local link, which then requires a valid .html
+			                document to jump to (.html document must be in the computer, 
+			                if website isn't hosted, or in folder of the website if it is hosted)
+			            </td>
+                    </tr>
+		            <tr>
+			            <td>
+			            &lt;a href="#exampleID"&gt;
+			            </td>
+			            <td>
+			                Initalizes a bookmark jump, which then requires a valid bookmark
+			                id which should've been initalized at some point in the website 
+			                (img, header, text, etc).
+			            </td>
+		            <tr>
+			            <td>
+			                &lt;a target="_blank"&gt;
+			            </td>
+			            <td>
+			                An add-on property for any link jump, which forces the browser 
+			                to make a new tab in order to open the selected link.
+                        </td>
+		            </tr>
+                    <tr>
+                        <td>
+                           &lt;img src="img.example"&gt;
+                        </td>
+                        <td>
+                            Links an image to your website and displays it. Requires having the photo
+                            on your computer locally, or requires it to be in the website's folder (if hosting)
+                        </td>
+                </tr>
+                </table>
+                <table>
+                    <
                 </table>
         </body>
