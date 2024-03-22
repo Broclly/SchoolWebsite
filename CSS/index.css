@@ -1,0 +1,11 @@
+h1:hover {color: blue;}
+
+img:hover {
+
+    width: 101%; height: 101%;
+}
+
+img:active {
+    
+    height: 50%; width: 50%;
+}
